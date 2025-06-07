@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="alen.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR</title>
+</head>
+<style>  
+  
+body {
+    background-color: lightblue;
+}
+    fieldset {
+        border-width: 10px;
+        width:100px;
+        border-color: black;
+        color: black;
+    }
+    .abct {
+        color: black;
+        background-color: white;
+        
+    }
+    .block {
+        size: 300px;
+    }
+    .visit {
+        border: 2px;
+        border-radius: 2px;
+    }
+    .neon-button {
+position: relative;
+padding: 15px 50px;
+font-size: 20px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+background: transparent;
+border: 3px solid #000000;
+border-radius: 30px;
+cursor: pointer;
+overflow: hidden;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 0 15px #000dff, 0 0 40px #0aff9d;
+}
+.neon-button:hover {
+color: #300985;
+background-color: #0000001a;
+box-shadow: 0 0 30px #0890bd, 0 0 60px #0aff9d;
+}
+.ripple {
+position: absolute;
+border-radius: 50%;
+background: #ff8c00;
+transform: scale(0);
+animation: rippleEffect 0.6s ease-out;
+pointer-events: none;
+}
+@keyframes rippleEffect {
+to {
+transform: scale(4);
+opacity: 0;
+}
+}
+</style>
+<body>
+    <!----Row1---->
+    <table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><fieldset>SHIFT.in</fieldset></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+
+        <th><a href="#"><button class="neon-button">about us</button></a></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="#"><button class="neon-button">contact us</button></a></th>
+    </tr>
+</table>
+<br>
+<br>
+<hr color="black">
+<br><br><br><br><br>
+<!----Row2---->
+<center>
+    <table>
+    <tr>
+        <th colspan="6">
+        <font color="orange" face="Helvetica" size="20">
+        <h1> Welcome </h1></font> <br>
+       
+        </th>
+        </tr>
+</table></center>
+
+<!----Row3---->
+<center>
+    <table><tr>
+    <th colspan="6">
+    <font color="black" face="Helvetica" size="5">
+    <!--  <h2> Alen Coding.in </h2>  -->
+    </font>
+    </th>
+    </tr>
+</table></center>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<!----Row5---->
+<table><tr>
+    <th colspan="6">
+    <font color="black" face="Helvetica" size="5">
+        <u><h3> My projects </h3></u>
+    </font>
+    </th>
+    </tr>
+</table>
+<!----Row5---->
+
+   <table border="2" class="block" align="left">
+    <tr fon><td>SL No</td><td>Site Name</td><td>Site Link</td><td>Site Code</td></tr>
+    <tr><td>1<td> Shift-Calculator</td><td><a href=" https://alen1alen.github.io/AR-calculator/" target="_blank">Click here</a></td><td>123</td></tr>
+    <tr><td>2</td><td>Shift-Curser</td><td><a href="https://alen1alen.github.io/Magic-Curser/mouse.html" target="_blank">Click here</a></td><td>123</td></tr>
+    <tr><td>3</td><td>Shift-games</td><td><a href="#" target="_blank">Click here</a></td><td>123</td></tr>
+</table>
+<br><br><br><br><br><br><br><br><br>
+<!----Row6---->
+
+    <body>
+        <font color="black" face="Helvetica" size="5">
+             <h1 class="visit"><blockquote >Visit Again</blockquote></h1></font>
+    </body>
+
+</html>
